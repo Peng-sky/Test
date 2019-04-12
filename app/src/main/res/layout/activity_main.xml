@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <com.example.ffan3.uiexample.CircularProgressView
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.example.ffan3.uiexample.CircleProgressBar
+        android:id="@+id/circle_progress"
+        android:layout_width="541px"
+        android:layout_height="541px"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+    <com.example.ffan3.uiexample.CircleImageView
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_head_img" />
+
+    <ImageView
+        android:id="@+id/img_move"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/move_value"/>
+
+</RelativeLayout>
